@@ -90,7 +90,7 @@ spec:
     spec:
       containers:
         - name: tito
-          image: harbor.livefire.dev/elasticsky-tito-project/livefire-ci-tito-fe:5
+          image: harbor.livefire.dev/elasticsky-tito-project/livefire-ci-tito-fe:latest
           imagePullPolicy: IfNotPresent
           ports:
           - containerPort: 80
