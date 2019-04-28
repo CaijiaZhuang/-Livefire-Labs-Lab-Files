@@ -35,7 +35,7 @@ spec:
     spec:
       containers:
       - name: tito-sql
-        image: harbor.livefire.dev/elasticsky-tito-project/livefire-ci-tito-sql:latest
+        image: harbor.livefire.dev/elasticsky-tito-project/livefire-tito-sql:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3306
