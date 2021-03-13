@@ -63,6 +63,7 @@ echo "[INFO]: Adding Grain(s) to autosign_grains..."
 sed -i '/autosign_grains:/a\ \ -\ vmw_securestate_compliance' minion
 
 # Add packages needed for Reactor SLS's :
+echo "[INFO]: Installing Reeactor packages..."
 pip3 install pyinotify
 pip3 install inotify 
 
