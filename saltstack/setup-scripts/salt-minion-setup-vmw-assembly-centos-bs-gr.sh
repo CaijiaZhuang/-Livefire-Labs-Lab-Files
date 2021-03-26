@@ -51,8 +51,8 @@ else
 fi
 
 # Add Grain(s) to Grains file
-echo "[INFO]: Adding Grain(s) to Grain file..."
-sed -i -e '$avmw_securestate_compliance:\ compliant' grains
+# echo "[INFO]: Adding Grain(s) to Grain file..."
+# sed -i -e '$avmw_securestate_compliance:\ compliant' grains
 
 # enable autosign_grains
 echo "[INFO]: Enabling autosign_grains..."
