@@ -44,7 +44,7 @@ if [ -f "$file_grians" ]; then
 else 
     echo "[INFO]: Grains file $file_grians does not exist. Creating ..."
     touch grains
-    echo "#" >> grains
+    echo "# Salt Grains File #" >> grains
 fi
 
 # Add Top Level Grain Name
